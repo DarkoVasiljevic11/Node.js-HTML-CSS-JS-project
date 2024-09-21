@@ -1,0 +1,98 @@
+.logo{
+    left:40px;
+    top: 80px;
+   position: absolute;
+   z-index: 2;
+}
+.logo > a > img{
+    width: 400px;
+    height:60px;
+}
+.links{
+    margin:50px;
+    height:40px;
+    padding: 10px;
+}
+.links > a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-size: xx-large;
+    margin-left:60px;
+}
+.imgbox{
+    
+    display: inline-block;
+    width:630px;
+    height: 630px;
+   
+}
+.center{
+    margin-top:100px;
+    margin-left: 5px;
+}
+.imgbox > a> img{
+    width: 630px;
+    height: 630px;
+}
+.imgbox > p{
+    color:gray;
+    font-size: x-large;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    font-size:xx-large;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+  @media only screen and (max-width: 700px){
+ 
+   .logo > a > img{
+      width: 100px;
+      height:30px;
+  }
+  .swiper-slide img{
+    height: 250px;
+  }
+  .imgbox{
+    display: block;
+    height: min-content;
+    width: min-content;
+  }
+  .imgbox>p{
+    margin-left: 135px;
+  }
+  .link{
+    
+    margin-left: 90px;
+  }
+ 
+  #dmgft{
+    display: none !important;
+  }
+  footer{
+    height: 165px;
+  }
+  }
+  

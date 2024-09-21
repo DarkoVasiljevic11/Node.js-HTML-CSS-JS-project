@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>demagog studio</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <div class="logo">
+    <a href="index.html"><img src="images/dmglogo.png"></a>
+  </div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="images/cubh.jpg" alt="Image 1"></div>
+      <div class="swiper-slide"> <img src="images/cubh1.jpg" alt="Image 2"></div>
+      <div class="swiper-slide"> <img src="images/highwaterh.jpeg" alt="Image 3"></div>
+      <div class="swiper-slide"><img src="images/highwaterh1.jpg" alt="Image 4"></div>
+      <div class="swiper-slide"><img src="images/golfh.jpeg" alt="Image 5"></div>
+      
+    </div>
+    <div class="imgbox center ">
+      <a href="golfclub.html" class="link">Golf Club:Nostalgia</a>
+      <p>2018/2021</p>
+      <a href="golfclub.html"><img src="images/golfclub.jpeg"></a>
+    </div >
+       <div class="imgbox">
+        <a href="highwater.html" class="link">Highwater</a>
+        <p>2023/2024</p>
+        <a href="highwater.html"><img src="images/highwater.png"></a>
+         </div>
+        <div class="imgbox">
+           <a href="thecub.html" class="link">The Cub</a>
+           <p>2024</p>
+           <a href="thecub.html"><img src="images/the cub.png"></a>
+          </div>
+    <div class="links">
+        <a href="information.html">Information</a>
+        <a href="clients.html">Clients</a>
+        <a href="http://localhost:5000/contact.html">Contact us</a>
+    </div>
+    <footer>
+        <p>Antisocial media:</p>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Youtube</a>
+        <a href="#">LinkedIn</a>
+        <p id="dmgft">Demagog Studio 2024</p>
+    </footer>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        centeredSlides: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+          
+        },
+      });
+    </script>
+</body>
+</html>
